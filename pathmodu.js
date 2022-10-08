@@ -1,5 +1,6 @@
 const path = require("path")
 console.log(path.sep)
+//
 const file=path.join('/content/','subfolder','text.txt')
 console.log(file)
 console.log(path.basename(file))
